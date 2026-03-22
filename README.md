@@ -43,6 +43,7 @@ The skill is installed to `~/.claude/skills/tsmc-resume-matcher/`.
 Only needed if you want to scrape TSMC job listings. Skippable if you paste job descriptions directly.
 
 ```bash
+cd ~/.claude/skills/tsmc-resume-matcher
 python3 -m venv .venv
 .venv/bin/pip install playwright
 .venv/bin/playwright install chromium
@@ -57,14 +58,6 @@ In any Claude Code session, invoke the skill:
 ```
 
 Then follow the prompts — attach your resume PDF or paste the text, and provide job URLs or let the scraper find TSMC listings interactively.
-
-### Run the TSMC scraper standalone
-
-```bash
-.venv/bin/python tsmc-resume-matcher/scraper.py
-```
-
-Prompts for filters (location, specialty, job level, job type) and saves results to a temp JSON file.
 
 ## Project structure
 
