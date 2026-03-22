@@ -49,6 +49,20 @@ python3 -m venv .venv
 .venv/bin/playwright install chromium
 ```
 
+## Screenshots
+
+**Skill launch**
+
+![Skill launch](https://codingman.cc/images/autov2/b9a4c9f44860e115f014319591b9507e.jpg)
+
+**JD parsing**
+
+![JD parsing](https://codingman.cc/images/autov2/e869317a072515889d525b044b1c409e.jpg)
+
+**Final job ranking**
+
+![Final job ranking](https://codingman.cc/images/autov2/6b1b09bb48d467c3a62951a55adffe1a.jpg)
+
 ## Usage
 
 In any Claude Code session, invoke the skill:
